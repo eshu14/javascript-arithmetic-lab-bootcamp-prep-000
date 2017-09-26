@@ -24,8 +24,8 @@ function makeInt(n){
   else {
     return parseInt(n,10);
   }
-  
-  
+
+
 }
 function preserveDecimal(n){
   if(pareseFloat(n)===false)
@@ -35,4 +35,3 @@ function preserveDecimal(n){
   else
   return parseFloat(n);
 }
-
