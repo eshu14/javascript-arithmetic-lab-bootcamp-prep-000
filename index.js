@@ -17,11 +17,22 @@ function inc(n){
   return n++;
 }
 function makeInt(n){
-  return parseInt(n);
+  if(parseInt(n)===false)
+  {
+    return 'Nan';
+  }
+  else {
+    return parseInt(n,10);
+  }
+  
+  
 }
-function makeInt(n){
-  return parseInt(n,10);
+function preserveDecimal(n){
+  if(pareseFloat(n)===false)
+  {
+    return 'NaN';
+  }
+  else
+  return parseFloat(n);
 }
-function makeInt(n){
-  if
-}
+
